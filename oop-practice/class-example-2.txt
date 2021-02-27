@@ -1,0 +1,17 @@
+// class
+SitStandDesk
+
+// attributes
+brand(str)
+model(str)
+height(float)
+surface_area(float)
+height_settings(hash)
+sit_reminder_on(bool)
+
+// methods
+change_height_setting (modifies height_setting based on stored value from height_settings hash)
+turn_on_sit_reminder (updates sit_reminder_on to true)
+create_height_setting (adds a key/value pair to height_settings hash)
+raise_manually (modifies height)
+lower_manually (modifies height)
