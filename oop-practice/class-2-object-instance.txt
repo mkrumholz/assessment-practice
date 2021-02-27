@@ -1,0 +1,17 @@
+// instance
+Molly's sit-stand desk
+
+// attributes
+brand = "Flexispot"
+model = "DA-65G19"
+height = 40.0
+surface_area = 1401.25
+height_settings = [1: 28.0, 2: 40.0 ]
+sit_reminder_on = false
+
+// methods
+change_height_setting: updates height to 28.0
+turn_on_sit_reminder: updates sit_reminder_on to true
+create_height_setting: updates height_settings to [1: 28.0, 2: 40.0, 3: 29.0 ]
+raise_manually: updates height to 31.5
+lower_manually: updates height to 28.5
