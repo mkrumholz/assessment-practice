@@ -1,0 +1,15 @@
+// class
+Student
+
+// attributes
+name(str)
+age(int)
+grade_level(int)
+course_list(array)
+course_grades_semester_1(hash)
+
+// methods
+add_course (adds course name to course_list array)
+drop_course (removes course name from course_list array)
+graduate_to_next (adds 1 to grade_level int)
+give_grade (updates the value for a certain course key in the course_grades_semester_1 hash)
