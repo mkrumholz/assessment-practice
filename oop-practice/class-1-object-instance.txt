@@ -1,0 +1,15 @@
+// instance
+"Sophie Bridger"
+
+// attributes
+name = "Sophie Bridger"
+age = "17"
+grade_level = 11
+course_list = [ "Calculus", "Biology", "English", "World History" ]
+course_grades_semester_1 = ["Calculus": 94, "Biology": 87, "English": 98, "World History": 81]
+
+// methods
+add_course: course_list updates to [ "Calculus", "Biology", "English", "World History", "Spanish" ]
+drop_course: course_list updates to [ "Calculus", "Biology", "English", "Spanish" ]
+graduate_to_next: grade_level updates to 12
+update_grade: course_grades_semester_1 updates to ["Calculus": 96, "Biology": 87, "English": 98, "World History": 81]
